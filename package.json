@@ -1,0 +1,23 @@
+{
+    "name": "investa-farm-backend-api",
+    "description": "Backend API for Investa Farm",
+    "version": "1.0.0",
+    "private": true,
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    },
+    "author": "Google LLC",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "currency-converter-lt": "^2.0.1",
+        "dotenv": "^16.3.1",
+        "ethers": "^5.7.2",
+        "express": "^4.17.1"
+    }
+}
