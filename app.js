@@ -354,10 +354,12 @@ app.post('/mpesa-withdraw-result', (req, res) => { // http://Localhost:8080/mpes
   }
 })
 
-const port = parseInt(process.env.PORT) || 8080; // Use this in production 
+module.exports = app 
 
-app.listen(port, () => {
-    console.log(`Investa Farm API server is starting on port ${port}`)
-}); 
+// const port = parseInt(process.env.PORT) || 8080; // Use this in production 
+
+// app.listen(port, () => {
+//     console.log(`Investa Farm API server is starting on port ${port}`)
+// }); 
 
 

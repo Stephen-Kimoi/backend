@@ -5,8 +5,8 @@
     "private": true,
     "main": "index.js",
     "scripts": {
-        "start": "node index.js",
-        "dev": "nodemon index.js"
+        "serve": "nodemon --watch . server.js",
+        "start": "node server.js"
     },
     "engines": {
         "node": ">=16.0.0"
